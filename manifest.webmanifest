@@ -3,13 +3,13 @@
   "short_name": "Rifa Nacional",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#12308c",
-  "theme_color": "#12308c",
+  "background_color": "#0b0b0c",
+  "theme_color": "#0b0b0c",
   "icons": [
     {
-      "src": "assets/logo.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "assets/nacional-transparente.png",
+      "sizes": "640x640",
+      "type": "image/png"
     }
   ]
 }
