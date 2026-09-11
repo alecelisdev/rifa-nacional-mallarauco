@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Rifa Nacional Sta. Teresa Mallarauco</title>
+<meta name="description" content="Sorteo de números de rifa del C.D. Nacional Sta. Teresa Mallarauco">
+<meta name="theme-color" content="#12308c">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="apple-touch-icon" href="assets/logo.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <img src="assets/logo.svg" alt="Escudo C.D. Nacional Sta. Teresa Mallarauco" class="logo">
+      <div class="header-text">
+        <h1>C.D. Nacional</h1>
+        <p>Sta. Teresa Mallarauco</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="setup-screen" class="screen">
+        <h2>Sorteo de Rifa</h2>
+        <p class="hint">Ingresa la cantidad total de números de la rifa</p>
+        <form id="setup-form" novalidate>
+          <label for="total-input" class="visually-hidden">Cantidad total de números</label>
+          <input
+            id="total-input"
+            name="total"
+            type="number"
+            inputmode="numeric"
+            placeholder="Ej: 500"
+            min="1"
+            max="1000000"
+            step="1"
+            required
+            autocomplete="off">
+          <p id="setup-error" class="error" role="alert" hidden></p>
+          <button type="submit" class="btn btn-primary">Comenzar sorteo</button>
+        </form>
+      </section>
+
+      <section id="draw-screen" class="screen" hidden>
+        <p class="total-label">Rifa de <strong id="total-display">0</strong> números</p>
+
+        <div class="result-card" id="result-card" hidden>
+          <span class="result-tag" id="result-tag"></span>
+          <span class="result-number" id="result-number">0</span>
+        </div>
+
+        <div class="draw-buttons">
+          <button type="button" id="btn-ganador" class="btn btn-gold">
+            🏆 Número Ganador
+          </button>
+          <button type="button" id="btn-agua" class="btn btn-outline">
+            🌊 Número al Agua
+          </button>
+        </div>
+
+        <button type="button" id="btn-reset" class="btn-link">Cambiar cantidad de números</button>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>C.D. Nacional Sta. Teresa Mallarauco</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

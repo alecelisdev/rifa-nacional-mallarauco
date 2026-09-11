@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d3fd6"/>
+      <stop offset="100%" stop-color="#1230a8"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 8
+           L182 32
+           L182 100
+           C182 150 148 190 100 212
+           C52 190 18 150 18 100
+           L18 32
+           Z"
+        fill="#c9a84c" stroke="#0a1a5c" stroke-width="3"/>
+  <path d="M100 18
+           L172 40
+           L172 100
+           C172 144 142 180 100 200
+           C58 180 28 144 28 100
+           L28 40
+           Z"
+        fill="url(#blueGrad)" stroke="#0a1a5c" stroke-width="2"/>
+  <polygon points="38,86 150,182 130,196 24,104" fill="#f5f7fb"/>
+  <text x="60" y="60" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" fill="#d9b64e" text-anchor="middle">C.D</text>
+  <text x="0" y="0" font-family="Arial Black, Arial, sans-serif" font-size="24" font-weight="900" fill="#12308c" text-anchor="middle"
+        transform="translate(90,150) rotate(-40)">NACIONAL</text>
+  <text x="148" y="128" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d9b64e" text-anchor="middle">STA</text>
+  <text x="148" y="146" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d9b64e" text-anchor="middle">TERESA</text>
+  <text x="145" y="164" font-family="Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#d9b64e" text-anchor="middle">MALLARAUCO</text>
+</svg>

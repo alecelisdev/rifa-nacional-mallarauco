@@ -1,0 +1,15 @@
+{
+  "name": "Rifa C.D. Nacional Sta. Teresa Mallarauco",
+  "short_name": "Rifa Nacional",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#12308c",
+  "theme_color": "#12308c",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
